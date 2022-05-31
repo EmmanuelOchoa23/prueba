@@ -1,0 +1,109 @@
+body{
+    background-image: url(/img/fondo-dona-blanca.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;/*hace q la imagen quede fija y se mueva el texto sobre ella*/
+    background-size: cover;
+}
+
+/*barra de menu me gustaria hacer un menu hamburguesa*/
+
+.menu-container{
+    background-color: rgb(242, 246, 6);
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    /*alinear horizontalmente*/
+    justify-content: center;   
+}
+
+
+.menu {
+    color: rgb(195, 118, 17);
+    border: 1px solid rgb(214, 189, 189);
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.titulo-principal{
+    font-family: 'Coming Soon', cursive;
+    font-size: 50px;
+    background-color:none;
+    color: rgb(242, 246, 6);
+    display: flex;
+    justify-content: center;
+}
+
+/*titulo o marca que iria debajo de carrousel*/
+.marca{
+    
+    font-size: 20px;
+    
+    color:  rgb(242, 246, 6);
+    display: flex;
+    justify-content: center;
+}
+
+/*seccion de los parductos*/
+
+    
+
+
+.titulo-producto{
+    font-style: inherit;
+    font-size: 35px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;   
+    
+}
+/*
+.productos{
+    
+    display: flex; flex-direction: row;
+    justify-content:space-around;
+    
+   
+}
+*/
+
+
+
+.grid-container{
+    /*declaramos grilla*/
+    display: grid;
+    /*definir la filas y la cantidad de*/
+    grid-template-rows: repeat( 3, 20rem);
+    /*definor las columnas y la cantidad*/
+    grid-template-columns: repeat(2, 1fr);
+    
+
+    border: 2px solid black;
+
+    /*especie de margin interno es gap*/
+    gap: 10px;
+    
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+.grid-item{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.doble{
+    display: flex;
+    grid-column: 1/3;
+    justify-content: center;
+
+}
+
+
+
+
+
+/*fin seccion de los productos*/
