@@ -1,7 +1,7 @@
 body{
     background-image: url(/img/fondo-dona-blanca.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;/*hace q la imagen quede fija y se mueva el texto sobre ella*/
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -35,7 +35,7 @@ body{
     justify-content: center;
 }
 
-/*titulo o marca que iria debajo de carrousel*/
+/*titulo o marca que iria debajo de carrousel***********/
 .marca{
     
     font-size: 20px;
@@ -45,11 +45,11 @@ body{
     justify-content: center;
 }
 
-/*seccion de los parductos*/
+
+
+/*seccion de los parductos**********************/
 
     
-
-
 .titulo-producto{
     font-style: inherit;
     font-size: 35px;
@@ -58,15 +58,7 @@ body{
     justify-content: center;   
     
 }
-/*
-.productos{
-    
-    display: flex; flex-direction: row;
-    justify-content:space-around;
-    
-   
-}
-*/
+
 
 
 
@@ -103,7 +95,15 @@ body{
 }
 
 
-
-
-
 /*fin seccion de los productos*/
+.combinaciones{
+    height: 75px;
+    width: 75px;
+    transition: all 2s;
+}
+.combinaciones:hover{
+    transform: scale(2) translateX(120px) rotate(90deg);
+    -webkit-transform: scale(2) translateX(120) rotate(90deg);
+    -o-transform: scale(2) translateX(120) rotate(90deg);
+    -moz-transform: scale(2) translateX(120) rotate(90deg);
+}
